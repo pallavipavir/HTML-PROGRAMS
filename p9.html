@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>MARQUEE TAG</title>
+    </head>
+    <body>
+        <center>
+            <h1>Marquee Tag..!</h1>
+        </center>
+        <hr>
+
+        <marquee>THIS IS A MARQUEE TAG..!</marquee>
+        <marquee><a href="#">THIS IS A MARQUEE TAG..!</a></marquee>
+        <marquee bgcolor="teal">THIS IS A MARQUEE TAG..!</marquee>
+
+        <hr><br><hr>
+
+        <marquee behavior="alternate" bgcolor="skyblue">THIS IS A ALTERNATE MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee behavior="scroll" bgcolor="skyblue">THIS IS A ALTERNATE MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee behavior="slide" bgcolor="skyblue">THIS IS A ALTERNATE MARQUEE TAG..!</marquee>
+        <br><br><hr>
+
+        <marquee direction="right" bgcolor="teal">THIS IS A RIGHT MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="left" bgcolor="teal">THIS IS A LEFT MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="up" bgcolor="teal" height="100">THIS IS A UP MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee direction="down" bgcolor="teal" height="100">THIS IS A DOWN MARQUEE TAG..!</marquee>
+        <br><br>
+
+        <marquee bgcolor="skyblue" scrollamount="1">THISIS A MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="20" id="test">THISIS A MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="10">THISIS A MARQUEE TAG..!</marquee>
+        <br><br>
+        <marquee bgcolor="skyblue" scrollamount="5">THISIS A MARQUEE TAG..!</marquee>
+        <script>
+            document.getElementById("test").onmouseover = function(){
+                document.grtElementById("test").stop();
+            };
+
+            document.getElementById("test").onmouseover = function(){
+                document.grtElementById("test").start();
+            };
+
+
+
+        </script>
+        
+
+ 
+
+
+
+
+
+
+    </body>
+</html>
